@@ -1,0 +1,127 @@
+body{
+    background-color: rgba(137, 43, 226, 0.336);
+}
+input{
+    width: 100px;
+    height: 100px;
+    border: none;
+    font-size: 100px;
+    text-align: center;
+}
+#namee{
+    border: thin solid blueviolet;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    display: none;
+    margin-top: 20px;
+}
+#namee , #naame , #get , #enter , #start , #continu , #restart , #quit , #yes , .area , #no:focus{
+    outline: none;
+}
+#naame{
+    border: thin solid blueviolet;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    display: none;
+    margin: 20px;
+}
+#enter{
+    display: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#tic{
+    color: rgb(117, 12, 216);
+    margin-top: 120px;
+}
+table{
+    width: 320px;
+    display: none;
+}
+#start{
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    background-color: blueviolet;
+    color: white;
+    border: blueviolet thin solid;
+    border-radius: 20px;
+    font-size: 20px;
+    display: none;
+}
+#player1{
+    display: none;
+    font-size: 20px;
+    margin-top: -10px;
+}
+#player2{
+    display: none;
+    font-size: 20px;
+}
+.area{
+    border-radius: 20px;
+    margin: 0;
+    background-color: black;
+    color: blueviolet;
+    text-align: center;
+    align-items: center;
+}
+#get{
+    background-color: black;
+    /* background-color: blueviolet; */
+    /* color: blueviolet; */
+    color: white;
+    width: 300px;
+    margin-top: 60px;
+    border: black thin solid;
+    border-radius: 50px;
+}
+#continu{
+    display: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: blueviolet thin solid;
+}
+#restart{
+    margin: 30px;
+    display: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: blueviolet thin solid;
+}
+#quit{
+    display: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: blueviolet thin solid;
+}
+#yes{
+    display: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: blueviolet thin solid;
+    height: 30px;
+    width: 50px;
+    color: white;
+}
+#no{
+    display: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: blueviolet thin solid;
+    height: 30px;
+    width: 50px;
+    color: white;
+}
+#result{
+    font-size: 20px;
+}
